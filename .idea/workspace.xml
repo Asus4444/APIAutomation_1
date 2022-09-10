@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c653166-6ebf-4f00-8e46-fe6528a4f0ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8c653166-6ebf-4f00-8e46-fe6528a4f0ec" name="Changes" comment="DAY1_9/10/22">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,10 +35,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.getMethodTests.getTest">
+  <component name="RunManager" selected="TestNG.postmethodTests.postTest">
     <configuration name="getMethodTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ResAPIAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,8 +63,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="postmethodTests.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ResAPIAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="postmethodTests" />
+      <option name="METHOD_NAME" value="postTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.postmethodTests.postTest" />
         <item itemvalue="TestNG.getMethodTests.getTest" />
         <item itemvalue="TestNG.getMethodTests" />
       </list>
@@ -81,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662815612241</updated>
     </task>
+    <task id="LOCAL-00001" summary="DAY1_9/10/22">
+      <created>1662833013221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662833013221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,13 +113,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DAY1_9/10/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY1_9/10/22" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/getMethodTests.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/test/java/postmethodTests.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
